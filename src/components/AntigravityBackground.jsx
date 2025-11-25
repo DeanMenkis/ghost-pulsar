@@ -27,12 +27,12 @@ const AntigravityBackground = () => {
     const speed = 0.3; 
     
     // Interaction settings
-    const hoverRadius = 150; 
+    const hoverRadius = 50; 
     const hoverForce = 0.5;  
     // Click settings
     const shockwaveSpeed = 5; // Slower ripple (was 8)
     const shockwaveMaxRadius = 800; // Larger radius (was 500)
-    const shockwaveForce = 15.0; // Slightly more force to compensate for size
+    const shockwaveForce = 2.0; // Slightly more force to compensate for size
 
     // Color palettes (Blue, Green, Yellow, Red/Pink) - slightly desaturated/dimmer
     const colorGroups = [
